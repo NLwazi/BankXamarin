@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BankingXamarin.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Red" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to your trusted Bank!" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
+
+            <Entry x:Name="AmountEntry" Placeholder="DepositAmount"></Entry>
+            <Entry x:Name="DepositReasonEntry" Placeholder="DepositReason"></Entry>
+            <Button x:Name="DepositButton" Text="Deposit"Clicked="DepositButton_Clicked"/>
+    
+
+
